@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 500;
+}
+
+header {
+    background-color: lightblue;
+    height: 5em;
+    font-family: 'Caveat', cursive;
+    padding: 0;
+    padding-left: 25%;
+    margin: 0;
+}
+
+h1 {
+    padding: 25px;
+    margin: auto
+}
+
+#todo-app {
+    margin: auto;
+    width: 350px;
+    padding: 3em;
+    font-size: 20px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#task-list li.completed {
+    background-color: lightblue;
+}
+
+#task-list li div.task-label {
+    font-size: 20px;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+button {
+    background-color: teal;
+    margin: 3px;
+    border-radius: 24px;
+    padding: 6px 10px;
+    border: 1px solid blue;
+    color: whitesmoke
+}
+
+li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/* notes */
+
+#notes {
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    Width: 250px;
+    height: 250px;
+    border: 4px black;
+    background-color: rgba(237, 230, 135, 0.73);
+    /*margin: -40px 90px 0px 50px;*/
+    transform: rotate(-10deg);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 150px;
+
+}
